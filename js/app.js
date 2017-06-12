@@ -7,25 +7,10 @@ const render = (root) => {
     root.append(FiltroSede());
     root.append(Resultado());
 
-/*    if (state.selectedMovie == null) {
-        wrapper.append(MovieGrid( _ => {
-            render(root);
-        }));
-    }else{
-        wrapper.append(MovieDetails( _ => {
-            render(root);
-        }));
-    }*/
-    //wrapper.append(MovieGrid());
-   // root.append(wrapper);    
+
 };
 
-/*const state = {
-    movies: movies,
-    selectedMovie: null
-}*/
-
-$( _ => {
+$(_ => {
     const root = $('.root');
     render(root);
 });

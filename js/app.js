@@ -5,6 +5,7 @@ const render = (root) => {
     // Append components
     root.append(Header());
     root.append(FiltroSede());
+    root.append(Resultado());
 
 /*    if (state.selectedMovie == null) {
         wrapper.append(MovieGrid( _ => {
